@@ -1,12 +1,11 @@
-import random
-x = random.randint(1, 10)
-x = int(x)
+x = int(input("好きな数字を入力してください："))
+
 print(x)
-if x % 3 == 0:
+if x % 15 == 0:
+    print("FizzBuzz")
+elif x % 3 == 0:
     print("Fizz")
 elif x % 5 == 0:
     print("Buzz")
-elif x % 15 == 0:
-    print("FizzBuzz")
 else:
-    print(x)
+    print('？？？？')
