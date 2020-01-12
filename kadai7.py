@@ -1,7 +1,7 @@
 class Unit:
     
     def __init__(self, name, age, job, hp, power):
-        self.__name = name #__name : privatevariable
+        self.__name = name #__name : privatevariable　__init__上では読み書きできるがほかは参照はできるが変更不可
         self.__age = age 
         self.__job = job 
         self.__hp = 100
@@ -16,5 +16,6 @@ class Unit:
         # return self._hp
     
 uni = Unit("尾花", 47, "cooker", 50, 100)
+uni2 = Unit("")
 print(uni.show())
 

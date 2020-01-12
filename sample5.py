@@ -35,4 +35,4 @@ tl = pr.getTel()
 print(nm, "さんは", ag, "歳です")
 print("address is ", ad, "Telephone is", tl, "です。")
 
-
+ # class object
