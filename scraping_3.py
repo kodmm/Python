@@ -15,10 +15,9 @@ time.sleep(3)
 current_temp = driver.find_elements_by_class_name("high")
 condition = driver.find_elements_by_class_name("cond")
 
-print ('Condition   : ' + (condition.text))
-
-for date, condition in zip(current_temp, condition):
-    print(date, condition)
+for temperature, condition in zip(current_temp, condition):
+    print('temperature:'+ (temperature.text))
+    print('condition:'+ (condition.text))
 
 driver.close()
 driver.quit()
