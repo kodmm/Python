@@ -11,4 +11,3 @@ time.sleep(4)
 print(search_a.text)
 driver.close()
 driver.quit()
-
